@@ -45,7 +45,7 @@ summary: |
     * Total token supply: 88,00 TENDY
     * Initial distribution: 85% treasury, 10% decentralization sale, 5% Tendy founding team
     * SNS ledger transaction fee: 0.00001 TENDY
-    * Tendy dApp canister: (canister-id-here)
+    * Tendy dApp canister: (zdgud-kqaaa-aaaal-ajn4q-cai)
 
     **Note on Actual Token Allocation:**
 
@@ -97,7 +97,7 @@ summary: |
 
 fallback_controller_principals:
     # principal of the intended fallback controller
-    [d7zib-qo5mr-qzmpb-dtyof-l7yiu-pu52k-wk7ng-cbm3n-ffmys-crbkz-nae] #NNS -> my canister
+    [57jq4-bc5vn-dovvh-2x3vf-opdga-x7bsn-rz7tn-njbl2-undxf-ti2cr-hqe] #NNS -> my canister
 
 # The list of dapp canister(s) that will be decentralized if the
 # decentralization swap succeeds. These are defined in the form of canister IDs,
@@ -108,7 +108,7 @@ fallback_controller_principals:
 # convince NNS neurons to vote in favor of your proposal).
 dapp_canisters:
     # canister ID of the to-be-decentralized dapp
-    [5ceyv-syaaa-aaaag-qc43q-cai]
+    [zdgud-kqaaa-aaaal-ajn4q-cai]
 
 # Configuration of SNS tokens in the SNS Ledger canister deployed as part
 # of the SNS.
