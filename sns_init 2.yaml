@@ -20,7 +20,7 @@ NnsProposal:
 
     # The HTTPS address of additional content required to evaluate the NNS
     # proposal.
-    url: "(link to forum)"
+    url: "(https://forum.dfinity.org/t/tendys-sns-after-2-years-it-s-time/43268/16)"
 
     # The description of the proposal. 
 summary: |
