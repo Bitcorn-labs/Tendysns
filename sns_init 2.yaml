@@ -66,7 +66,7 @@ summary: |
     * Burn a matching number of NEW TENDY DAO tokens equivalent to burned legacy TENDY (~35 tokens)
     * Burn unclaimed legacy TENDY tokens held in the treasury and sale reserve (e.g., 1,733 in treasury, 888 reserved for sale)
     * Burn 444 legacy TENDY tokens from the founding team
-    * Transfer approximately 5,337 NEW TENDY DAO tokens to the converter dApp, leaving 1,733 in the treasury to match original reserve
+    * Transfer approximately 53,370 NEW TENDY DAO tokens to the converter dApp, leaving 1,733 in the treasury to match original reserve
 
     This ensures a clean 1:1 conversion and matches the circulating supply from old to new tokens. Roughly 3,065 legacy tokens will be burned in total, with ~5,337 remaining to be converted.
 
