@@ -10,7 +10,7 @@ Principals: []
 logo: logo.png
 
 # URL to the dapp controlled by the SNS project.
-url: (https://zdgud-kqaaa-aaaal-ajn4q-cai.icp0.io)
+url: https://zdgud-kqaaa-aaaal-ajn4q-cai.icp0.io
 
 # Metadata for the NNS proposal required to create the SNS. This data will be
 # shown only in the NNS proposal.
@@ -20,7 +20,7 @@ NnsProposal:
 
     # The HTTPS address of additional content required to evaluate the NNS
     # proposal.
-    url: "(https://forum.dfinity.org/t/tendys-sns-after-2-years-it-s-time/43268/16)"
+    url: "https://forum.dfinity.org/t/tendys-sns-after-2-years-it-s-time/43268/16"
 
     # The description of the proposal. 
 summary: |
@@ -302,7 +302,7 @@ Distribution:
         # principals of your intended genesis neurons.
         #
         # For testing, propose_sns.sh will fill this in automatically.
-        - principal: umo43-o3yqa-363iw-wroso-jm5az-kmfp2-rdzoj-q7il2-zfhcj-l35r7-oqe #NNS -> my canister
+        - principal:  #NNS -> my canister
           stake: 500 tokens
           memo: 0
           dissolve_delay: 1 months
@@ -313,12 +313,12 @@ Distribution:
         # as the treasury. This is initialized in a special sub-account, as the
         # main account of Governance is the minting account of the SNS Ledger.
         # This field is specified as a token. For instance, "1 token".
-        governance: 4_500 tokens
+        governance: 8_000 tokens
 
         # The initial SNS token balance of the Swap canister is what will be
         # available for the decentralization swap. These tokens will be swapped
         # for ICP. This field is specified as a token. For instance, "1 token".
-        swap: 1_000 tokens
+        swap: 10_000 tokens
 
     # Checksum of the total number of tokens distributed in this section.
     # This field is specified as a token. For instance, "1 token".
