@@ -43,7 +43,7 @@ summary: |
     * Token name: Tendy DAO
     * Token symbol: TENDY
     * Total token supply: 88,00 TENDY
-    * Initial distribution: 85% treasury, 10% decentralization sale, 5% Tendy founding team
+    * Initial distribution: 80% converter dapp, 5% treasury, 10% decentralization sale, 5% Tendy founding team
     * SNS ledger transaction fee: 0.00001 TENDY
     * Tendy dApp canister: (zdgud-kqaaa-aaaal-ajn4q-cai)
 
@@ -86,7 +86,7 @@ summary: |
     * Minimum participation: 1 ICP
     * Maximum participation: 3,000 ICP
     * Min to be raised: 1 ICP
-    * Max to be raised: 300,000,000 ICP
+    * Max to be raised: 30,000 ICP
     * Community Fund Participation: 0 ICP
     * Sale duration: 7 days
     * Sale delay: 0 days
