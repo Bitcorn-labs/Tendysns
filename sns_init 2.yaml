@@ -51,10 +51,10 @@ summary: |
 
     Due to the 1:1 conversion of the legacy TENDY token into the new Tendy DAO token, the actual post-launch allocation will adjust as follows:
 
-    * 19.5% treasury  
+    * 5% treasury  
     * 10% decentralization sale  
-    * 10% Tendy founding team  
-    * 60.1% Tendy converter dApp  
+    * 5% Tendy founding team  
+    * 80% Tendy converter dApp  
     * ~0.4% burned  
 
     Most of the treasury’s TENDY will be allocated to the converter dApp to support conversions. The founding team will convert 444 of their old TENDY tokens and burn 444, ending up with 888 new TENDY DAO tokens (10% of supply). Of these, 444 will be locked in a neuron (8-month vesting, 1-month dissolve delay); the remaining 444 will be unlocked.
