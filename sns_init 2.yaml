@@ -303,9 +303,24 @@ Distribution:
         #
         # For testing, propose_sns.sh will fill this in automatically.
         - principal:  #NNS -> my canister
-          stake: 880 tokens
+          stake: 70400 tokens # old tendy exchange
           memo: 0
-          dissolve_delay: 1 months
+          dissolve_delay: 0 months
+          vesting_period: 0 months
+        - principal:  #NNS -> my canister
+          stake: 1_466 tokens # dev 1
+          memo: 1
+          dissolve_delay: 6 months
+          vesting_period: 8 months
+        - principal:  #NNS -> my canister
+          stake: 1_467 tokens # dev 2
+          memo: 2
+          dissolve_delay: 6 months
+          vesting_period: 8 months
+        - principal:  #NNS -> my canister
+          stake: 1_467 tokens # dev 3
+          memo: 3
+          dissolve_delay: 6 months
           vesting_period: 8 months
     # The initial SNS token balances of the various canisters of the SNS.
     InitialBalances:
@@ -313,7 +328,7 @@ Distribution:
         # as the treasury. This is initialized in a special sub-account, as the
         # main account of Governance is the minting account of the SNS Ledger.
         # This field is specified as a token. For instance, "1 token".
-        governance: 78_380 tokens
+        governance: 4_400 tokens
 
         # The initial SNS token balance of the Swap canister is what will be
         # available for the decentralization swap. These tokens will be swapped
@@ -322,11 +337,14 @@ Distribution:
 
     # Checksum of the total number of tokens distributed in this section.
     # This field is specified as a token. For instance, "1 token".
-    #          1_000    (neuron)
-    #      2 million    (governance)
-    # + 500 thousand    (swap)
+    #  70_400    (neuron old tendy exchange)
+    #   1_467    (neuron dev 1)
+    #   1_467    (neuron dev 2)
+    #   1_466    (neuron dev 3)
+    #   4_400    (governance)
+    # + 8_800    (swap)
     # --------------
-    total: 14_080 tokens
+    total: 88_000 tokens
 
 # Configuration of the decentralization swap parameters. Choose these parameters
 # carefully, if a decentralization swap fails, the SNS will restore the dapp
