@@ -318,7 +318,7 @@ Distribution:
         # The initial SNS token balance of the Swap canister is what will be
         # available for the decentralization swap. These tokens will be swapped
         # for ICP. This field is specified as a token. For instance, "1 token".
-        swap: 10_000 tokens
+        swap: 8_800 tokens
 
     # Checksum of the total number of tokens distributed in this section.
     # This field is specified as a token. For instance, "1 token".
